@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+:root {
+    --primary: #EF5537;
+    --body: #F5F6FA;
+    --text-color: #5B5876;
+    --boald-text-color: #2D405A;
+    --white: #fff;
+}
+
+[class*="grid"] {
+    display: grid;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--body);
+}
+
+p,
+a,
+input,
+select,
+textarea,
+button {
+    font-size: 1.6rem;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.up-arrow {
+    transform: rotate(90deg);
+}
+
+.right-arrow {
+    transform: rotate(180deg);
+}
+
+.down-arrow {
+    transform: rotate(-90deg);
+}
+
+.main {
+    position: relative;
+}
+
+
+/* Start Lalyout Css */
+
+.main .nav {
+    position: fixed;
+    width: 250px;
+    margin-left: 0;
+    background: var(--white);
+    left: 0;
+    top: 0;
+    height: 100vh;
+    z-index: 999;
+    transition: .5s linear;
+}
+
+.nav .close {
+    display: none;
+}
+
+.nav .logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.nav .all-item {
+    padding: 50px 5px 20px 0px;
+}
+
+.nav .all-item .item {
+    display: flex;
+    align-items: center;
+    margin: 20px 5px 20px 0;
+    padding: 10px 10px 10px 20px;
+    border-radius: 0 50px 50px 0;
+    cursor: pointer;
+}
+
+.nav .all-item .item .title {
+    font-size: 1.6rem;
+    margin-left: 15px;
+    color: #56606D;
+    cursor: pointer;
+}
+
+.nav .all-item .item:hover,
+.nav .all-item .item:focus,
+.nav .all-item .item.active,
+.nav .all-item .item.active {
+    background-color: rgb(239, 85, 55, .15);
+}
+
+.nav .all-item .item:hover .title,
+.nav .all-item .item:focus .title,
+.nav .all-item .item.active .title,
+.nav .all-item .item.active .title {
+    color: var(--primary);
+}
+
+.nav .all-item .item:hover .icon,
+.nav .all-item .item:focus .icon,
+.nav .all-item .item.active .icon,
+.nav .all-item .item.active .icon {
+    filter: invert(51%) sepia(36%) saturate(6909%) hue-rotate(340deg) brightness(97%) contrast(93%);
+}
+
+.main .header {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.header .icon {
+    width: 45px;
+    height: 45px;
+    background-color: #EAEAEA;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.header .icon label {
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .icon label span {
+    font-size: 1rem;
+    color: var(--white);
+}
+
+.header .profile-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45px;
+}
+
+.header .profile-box .content {
+    margin-left: 10px;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.profile-box .content .title {
+    color: var(--boald-text-color);
+    font-size: 1.6rem;
+}
+
+.profile-box .content .sub-title {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #56606D;
+    margin-top: 2px;
+}
+
+.profile-box .profile-image {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.main .section {
+    padding: 110px 20px 20px 270px;
+}
+
+.main .section .wrapper {
+    width: 100%;
+    background-color: var(--white);
+    border-radius: 20px;
+}
+
+.main .section .wrapper .heading {
+    padding: 18px 18px 18px 35px;
+    border-bottom: 1px solid #E8EFF6;
+}
+
+.main .section .wrapper .heading .title,
+.mobile-heading-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--boald-text-color);
+}
+
+.mobile-heading-title {
+    display: none;
+}
+
+.main .header .menu {
+    display: none;
+}
+
+
+/* End Lalyout Css */
+
+
+/* Start Table Desing */
+
+.table {
+    padding: 20px;
+}
+
+.table .t-filter {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.table .t-filter .filter {
+    margin-left: 25px;
+    display: none;
+}
+
+.table .t-search {
+    border: 1px solid rgb(24, 20, 57, .1);
+    padding: 8px 10px;
+    width: 430px;
+    background-color: rgb(245, 248, 255, .1);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.table .t-search img {
+    padding: 0 15px;
+}
+
+.table .t-search input {
+    width: 100%;
+    background-color: transparent;
+}
+
+.table .t-search input::placeholder {
+    font-size: 1.4rem;
+    color: #B4B4B4;
+}
+
+.table .t-heading,
+.table .t-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.table .t-heading {
+    background-color: #F5F6FA;
+    padding: 18px 20px;
+    border-radius: 8px;
+}
+
+.table .t-heading .item {
+    font-size: 1.4rem;
+    color: #08376A;
+}
+
+.table .t-body {
+    padding: 20px;
+    border-bottom: 1px solid #E8EFF6;
+}
+
+.table .t-body .item {
+    font-size: 1.6rem;
+    color: #5B5876;
+    text-align: left;
+}
+
+.table .t-body .item .date,
+.table .t-body .item .cost {
+    margin-right: 5px;
+    display: none;
+}
+
+.projects .table .t-heading .item:first-child,
+.projects .table .t-body .item:first-child {
+    width: 380px;
+}
+
+.table .t-pagination {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-top: 30px;
+    color: #78808A;
+    font-size: 1.4rem;
+}
+
+.table .t-pagination .pre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.table .t-pagination .pre span {
+    margin-left: 5px;
+}
+
+.table .t-pagination .next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.table .t-pagination .next span {
+    margin-right: 5px;
+}
+
+.table .t-pagination .pre:hover>img,
+.table .t-pagination .next:hover>img {
+    filter: invert(51%) sepia(36%) saturate(6909%) hue-rotate(340deg) brightness(97%) contrast(93%);
+}
+
+.table .t-pagination .pre:hover,
+.table .t-pagination .next:hover {
+    color: var(--primary);
+}
+
+
+/* End Table Desing */

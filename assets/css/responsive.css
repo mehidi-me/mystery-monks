@@ -164,8 +164,10 @@
     .project-details .proposal .profile-box .profile-img .online-status {
         right: -10px;
     }
-    .project-details .proposal .profile-box .profile-img .online-status.away {
-        top: -12px;
-        right: 1px;
+}
+
+@media (max-width: 480px) {
+    .projects .table .t-body .item:first-child {
+        width: 280px;
     }
 }

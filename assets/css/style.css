@@ -460,11 +460,6 @@ button {
     font-size: 1.6rem;
 }
 
-.project-details .main-content .job p.bold {
-    font-size: 1.8rem;
-    font-weight: 700;
-}
-
 .project-details .main-content form {
     display: flex;
     flex-direction: column;
@@ -579,15 +574,7 @@ button {
 }
 
 .project-details .proposal .profile-box .profile-img .online-status.away {
-    top: -10px;
-    right: 8px;
-    border: 0;
-}
-
-.project-details .proposal .profile-box .profile-img .online-status.away img {
-    width: 32px;
-    height: 32px;
-    filter: invert(82%) sepia(47%) saturate(3709%) hue-rotate(348deg) brightness(92%) contrast(93%);
+    background: #e39c19;
 }
 
 .project-details .proposal .profile-box .profile-img .online-status.offline {

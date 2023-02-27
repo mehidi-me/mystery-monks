@@ -191,6 +191,14 @@
         right: -9px;
         bottom: -8px;
     }
+    .project-details .your-proposal .head .title {
+        font-size: 2.0rem;
+        line-height: 27px;
+    }
+    .project-details .your-proposal .head .btn {
+        width: 120px;
+        padding: 8px 10px;
+    }
 }
 
 @media (max-width: 480px) {

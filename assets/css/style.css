@@ -538,11 +538,36 @@ button {
 }
 
 .project-details .proposal .profile-box .profile-img {
+    position: relative;
+    margin-right: 10px;
+}
+
+.project-details .proposal .profile-box .profile-img img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    overflow: hidden;
-    margin-right: 10px;
+}
+
+.project-details .proposal .profile-box .profile-img .online-status {
+    border: 2px solid #fff;
+    width: 12px;
+    height: 12px;
+    top: 2px;
+    right: 0px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.project-details .proposal .profile-box .profile-img .online-status.online {
+    background: #2DCC89;
+}
+
+.project-details .proposal .profile-box .profile-img .online-status.away {
+    background: yellow;
+}
+
+.project-details .proposal .profile-box .profile-img .online-status.offline {
+    background: red;
 }
 
 .project-details .proposal .title {

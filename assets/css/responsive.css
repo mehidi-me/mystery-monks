@@ -78,15 +78,22 @@
         background-color: #fff;
         margin: 20px 0;
         border-radius: 8px;
+        position: relative;
     }
     .table .t-body .item {
         margin: 5px 0;
+    }
+    .table .t-body .edit-button {
+        position: absolute;
+        top: 10px;
+        right: 10px;
     }
     .projects .table .t-body .item:first-child {
         width: 100%;
         font-size: 1.6rem;
         font-weight: 700;
         color: #2D405A;
+        width: 290px;
     }
     .table .t-body .item .date,
     .table .t-body .item .cost {
@@ -148,8 +155,12 @@
     .project-details .proposal .profile-box .profile-img {
         width: 40px;
         height: 40px;
+        margin-right: 20px;
     }
     .project-details .proposal .profile-box .sub-content .chat {
         margin-left: 30px;
+    }
+    .project-details .proposal .profile-box .profile-img .online-status {
+        right: -10px;
     }
 }

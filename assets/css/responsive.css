@@ -80,8 +80,13 @@
         border-radius: 8px;
         position: relative;
     }
+    .table .t-body .item:first-child {
+        margin: 4px 0;
+        font-size: 1.6rem;
+    }
     .table .t-body .item {
-        margin: 3px 0;
+        margin: 4px 0;
+        font-size: 1.4rem;
     }
     .table .t-body .edit-button {
         position: absolute;
@@ -102,6 +107,10 @@
     .table .t-pagination {
         justify-content: center;
     }
+    .project-details .heading h3.title {
+        font-size: 2.0rem !important;
+        line-height: 27px !important;
+    }
     .project-details .all-items {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -109,10 +118,23 @@
         margin: 0 15px;
     }
     .project-details .all-items .item {
-        padding: 15px 0px;
+        padding: 10px 0px;
+    }
+    .project-details .all-items .item .title {
+        font-size: 1.6rem;
+        line-height: 22px;
     }
     .project-details .all-items .item .sub-title {
-        font-size: 1.7rem;
+        font-size: 1.8rem;
+        line-height: 25px;
+    }
+    .project-details .main-content .description {
+        font-size: 1.4rem;
+        line-height: 28px;
+        font-weight: 600;
+    }
+    .project-details .proposals h3.title {
+        font-size: 2.0rem;
     }
     .project-details .all-items .item:first-child {
         padding-left: 0px;
@@ -141,9 +163,7 @@
         display: block;
     }
     .project-details .proposal .title {
-        color: #2D405A;
-        font-size: 1.6rem;
-        font-weight: 700;
+        font-weight: 600;
     }
     .project-details .proposal .description {
         font-size: 1.4rem;

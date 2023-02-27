@@ -99,6 +99,9 @@
     .table .t-body .item .cost {
         display: inline-block;
     }
+    .table .t-pagination {
+        justify-content: center;
+    }
     .project-details .all-items {
         display: grid;
         grid-template-columns: 1fr 1fr;

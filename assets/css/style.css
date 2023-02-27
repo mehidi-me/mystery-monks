@@ -454,6 +454,11 @@ button {
     padding: 7px 0;
 }
 
+.project-details .main-content .job .content {
+    display: flex;
+    align-items: center;
+}
+
 .project-details .main-content .job p {
     margin-left: 10px;
     margin-right: 40px;
@@ -574,7 +579,7 @@ button {
 }
 
 .project-details .proposal .profile-box .profile-img .online-status.away {
-    background: #e39c19;
+    background: #DEBE1A;
 }
 
 .project-details .proposal .profile-box .profile-img .online-status.offline {

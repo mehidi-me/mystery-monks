@@ -126,6 +126,9 @@
     .project-details .main-content {
         padding: 20px 15px;
     }
+    .project-details .main-content .job {
+        justify-content: space-between;
+    }
     .project-details .proposal .btn {
         position: inherit;
         right: 0;

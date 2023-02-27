@@ -457,7 +457,12 @@ button {
 .project-details .main-content .job p {
     margin-left: 10px;
     margin-right: 40px;
+    font-size: 1.6rem;
+}
+
+.project-details .main-content .job p.bold {
     font-size: 1.8rem;
+    font-weight: 700;
 }
 
 .project-details .main-content form {
@@ -577,17 +582,16 @@ button {
     top: -10px;
     right: 8px;
     border: 0;
-    filter: invert(41%) sepia(53%) saturate(5607%) hue-rotate(205deg) brightness(98%) contrast(94%);
 }
 
 .project-details .proposal .profile-box .profile-img .online-status.away img {
     width: 32px;
     height: 32px;
-    filter: invert(41%) sepia(53%) saturate(5607%) hue-rotate(205deg) brightness(98%) contrast(94%);
+    filter: invert(82%) sepia(47%) saturate(3709%) hue-rotate(348deg) brightness(92%) contrast(93%);
 }
 
 .project-details .proposal .profile-box .profile-img .online-status.offline {
-    background: red;
+    background: gray;
 }
 
 .project-details .proposal .title {

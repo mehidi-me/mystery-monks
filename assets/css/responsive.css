@@ -81,11 +81,11 @@
         position: relative;
     }
     .table .t-body .item {
-        margin: 5px 0;
+        margin: 3px 0;
     }
     .table .t-body .edit-button {
         position: absolute;
-        top: 33px;
+        top: 29px;
         right: 14px;
     }
     .projects .table .t-body .item:first-child {
@@ -93,7 +93,7 @@
         font-size: 1.6rem;
         font-weight: 700;
         color: #2D405A;
-        width: 280px;
+        width: 290px;
     }
     .table .t-body .item .date,
     .table .t-body .item .cost {

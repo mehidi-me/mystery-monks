@@ -2,6 +2,9 @@
     /* html {
         font-size: 45%;
     } */
+    .btn {
+        width: 100%;
+    }
     .main .nav {
         margin-left: -250px;
     }
@@ -23,17 +26,21 @@
     .main .section {
         padding: 100px 20px 20px 20px;
     }
-    .main .section .wrapper {
+    .main .projects .wrapper {
         background-color: var(--body);
     }
-    .main .section .wrapper .heading {
+    .main .projects .wrapper .heading {
         display: none;
+    }
+    .main .project-details .wrapper .heading .title {
+        font-size: 2.0rem;
     }
     .main .header {
         position: fixed;
         width: 100%;
         justify-content: right;
         background-color: var(--body);
+        z-index: 1;
     }
     .main .header .menu {
         display: block;
@@ -84,5 +91,65 @@
     .table .t-body .item .date,
     .table .t-body .item .cost {
         display: inline-block;
+    }
+    .project-details .all-items {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0 20px;
+        margin: 0 15px;
+    }
+    .project-details .all-items .item {
+        padding: 15px 0px;
+    }
+    .project-details .all-items .item .sub-title {
+        font-size: 1.7rem;
+    }
+    .project-details .all-items .item:first-child {
+        padding-left: 0px;
+    }
+    .project-details .all-items .item:last-child {
+        grid-column: span 2;
+    }
+    .main .project-details .wrapper .heading {
+        padding: 15px;
+    }
+    .project-details .main-content {
+        padding: 20px 15px;
+    }
+    .project-details .proposal .btn {
+        position: inherit;
+        right: 0;
+        margin-bottom: 20px;
+    }
+    .project-details .proposal .profile-box .sub-content .star img {
+        display: none;
+    }
+    .project-details .proposal .profile-box .sub-content .star img:first-child {
+        display: block;
+    }
+    .project-details .proposal .title {
+        color: #2D405A;
+        font-size: 1.6rem;
+        font-weight: 700;
+    }
+    .project-details .proposal .description {
+        font-size: 1.4rem;
+        font-weight: 400;
+    }
+    .project-details .proposal .profile-box .name {
+        font-size: 1.4rem;
+    }
+    .project-details .proposal .profile-box .sub-content span {
+        font-size: 1.4rem;
+    }
+    .project-details .proposal .profile-box .sub-content p {
+        font-size: 1.4rem;
+    }
+    .project-details .proposal .profile-box .profile-img {
+        width: 40px;
+        height: 40px;
+    }
+    .project-details .proposal .profile-box .sub-content .chat {
+        margin-left: 30px;
     }
 }

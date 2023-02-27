@@ -165,7 +165,8 @@
         right: 20px;
     }
     .project-details .proposal .profile-box .profile-img .online-status {
-        right: -10px;
+        right: -9px;
+        bottom: -8px;
     }
 }
 

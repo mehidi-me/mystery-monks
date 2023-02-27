@@ -457,7 +457,7 @@ button {
 .project-details .main-content .job p {
     margin-left: 10px;
     margin-right: 40px;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 
 .project-details .main-content form {
@@ -563,7 +563,7 @@ button {
     border: 2px solid #fff;
     width: 12px;
     height: 12px;
-    top: 2px;
+    bottom: 5px;
     right: 0px;
     border-radius: 50%;
     position: absolute;

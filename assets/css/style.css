@@ -40,6 +40,7 @@ select,
 textarea,
 button {
     font-size: 1.6rem;
+    line-height: 26px;
 }
 
 .full-width {
@@ -382,6 +383,10 @@ button {
 
 /* End Table Desing */
 
+.project-details .heading h3.title {
+    font-size: 2.4rem !important;
+}
+
 .project-details .all-items {
     background: #F5F7F6;
     display: flex;
@@ -399,12 +404,12 @@ button {
 }
 
 .project-details .all-items .item .title {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: #78808A;
 }
 
 .project-details .all-items .item .sub-title {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: #3B414B;
 }
 
@@ -452,6 +457,7 @@ button {
 .project-details .main-content .job p {
     margin-left: 10px;
     margin-right: 40px;
+    font-size: 1.8rem;
 }
 
 .project-details .main-content form {
@@ -507,6 +513,9 @@ button {
 .project-details .proposal .profile-box .name {
     font-size: 1.8rem;
     color: #2D405A;
+    font-family: 'Poppins';
+    line-height: 27px;
+    font-weight: 600;
 }
 
 .project-details .proposal .profile-box .sub-content {
@@ -518,11 +527,13 @@ button {
     color: #000;
     margin-left: 10px;
     margin-right: 5px;
+    font-weight: 700;
 }
 
 .project-details .proposal .profile-box .sub-content span {
     color: #78808A;
     font-size: 1.6rem;
+    font-weight: 400;
 }
 
 .project-details .proposal .profile-box .sub-content .chat {
@@ -563,7 +574,16 @@ button {
 }
 
 .project-details .proposal .profile-box .profile-img .online-status.away {
-    background: yellow;
+    top: -10px;
+    right: 8px;
+    border: 0;
+    filter: invert(41%) sepia(53%) saturate(5607%) hue-rotate(205deg) brightness(98%) contrast(94%);
+}
+
+.project-details .proposal .profile-box .profile-img .online-status.away img {
+    width: 32px;
+    height: 32px;
+    filter: invert(41%) sepia(53%) saturate(5607%) hue-rotate(205deg) brightness(98%) contrast(94%);
 }
 
 .project-details .proposal .profile-box .profile-img .online-status.offline {

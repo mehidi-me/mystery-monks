@@ -425,7 +425,7 @@ button {
 .project-details .main-content {
     border-top: 1px solid #E8EFF6;
     margin: 25px 0;
-    padding: 20px 30px;
+    padding: 28px 30px;
 }
 
 .project-details .main-content .title {
@@ -450,7 +450,7 @@ button {
 
 .project-details .main-content .all-jobs {
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .project-details .main-content .job {
@@ -459,6 +459,10 @@ button {
     font-size: 1.4rem;
     color: #595F68;
     padding: 7px 0;
+}
+
+.project-details .main-content .job .price {
+    font-size: 1.4rem;
 }
 
 .project-details .main-content .job .content {

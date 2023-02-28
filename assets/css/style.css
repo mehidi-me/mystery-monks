@@ -426,7 +426,7 @@ button {
     border-top: 1px solid #E8EFF6;
     margin: 25px 0;
     padding: 28px 30px;
-    padding-top: 40px;
+    padding-top: 36px;
 }
 
 .project-details .main-content .title {
@@ -439,7 +439,7 @@ button {
 .project-details .main-content .description {
     font-size: 1.6rem;
     color: #56606D;
-    margin-bottom: 34px;
+    margin-bottom: 30px;
     line-height: 24px;
     font-weight: 400;
 }
@@ -447,6 +447,7 @@ button {
 .project-details .main-content .description a {
     color: var(--primary);
     font-weight: 400;
+    line-height: 24px;
 }
 
 .project-details .main-content .all-jobs {
@@ -459,7 +460,7 @@ button {
     align-items: center;
     font-size: 1.4rem;
     color: #595F68;
-    padding: 7px 0;
+    padding: 4px 0;
 }
 
 .project-details .main-content .job .price {
@@ -649,8 +650,8 @@ button {
 }
 
 .project-details .your-proposal .content .description {
-    font-weight: 600;
+    font-weight: 400;
     font-size: 1.6rem;
-    line-height: 24px;
+    line-height: 26px;
     color: #3B414B;
 }

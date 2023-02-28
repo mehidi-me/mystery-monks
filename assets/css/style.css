@@ -432,7 +432,7 @@ button {
     font-size: 1.8rem;
     color: #2D405A;
     margin-bottom: 7px;
-    line-height: 25px;
+    line-height: 24px;
 }
 
 .project-details .main-content .description {
@@ -445,6 +445,7 @@ button {
 
 .project-details .main-content .description a {
     color: var(--primary);
+    font-weight: 400;
 }
 
 .project-details .main-content .all-jobs {
@@ -472,6 +473,10 @@ button {
     line-height: 22px;
 }
 
+.project-details .main-content .job span {
+    font-size: 1.9rem;
+}
+
 .project-details .main-content form {
     display: flex;
     flex-direction: column;
@@ -497,10 +502,11 @@ button {
 }
 
 .project-details .proposals h3.title {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     color: #2D405A;
     margin-bottom: 10px;
     font-weight: 700;
+    line-height: 24px;
 }
 
 .project-details .proposal {
@@ -603,7 +609,7 @@ button {
 
 .project-details .proposal .description {
     margin-bottom: 0;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .project-details .your-proposal {
@@ -618,8 +624,8 @@ button {
 
 .project-details .your-proposal .head .title {
     font-weight: 700;
-    font-size: 2.4rem;
-    line-height: 33px;
+    font-size: 1.8rem;
+    line-height: 24px;
     color: #2D405A;
 }
 

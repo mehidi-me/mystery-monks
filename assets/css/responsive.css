@@ -72,6 +72,7 @@
         display: none;
     }
     .table .t-body {
+        display: flex;
         flex-direction: column;
         align-items: start;
         border: 0;
@@ -87,6 +88,11 @@
     .table .t-body .item {
         margin: 4px 0;
         font-size: 1.4rem;
+        align-items: center !important;
+    }
+    .table .t-body .item:last-child p {
+        font-size: 1.4rem;
+        line-height: 22px;
     }
     .table .t-body .edit-button {
         position: absolute;
@@ -147,7 +153,7 @@
     }
     .project-details .main-content {
         padding: 20px 15px;
-        padding-top: 36px;
+        padding-top: 28px;
     }
     .project-details .main-content .job {
         justify-content: space-between;

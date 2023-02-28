@@ -300,9 +300,12 @@ button {
 
 .table .t-heading,
 .table .t-body {
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-gap: 0 10px;
 }
 
 .table .t-heading {
@@ -335,9 +338,16 @@ button {
     display: none;
 }
 
-.projects .table .t-heading .item:first-child,
-.projects .table .t-body .item:first-child {
-    width: 380px;
+.projects .table .t-heading .item:last-child,
+.projects .table .t-body .item:last-child {
+    /* width: 380px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.projects .table .t-body .item:last-child img:last-child {
+    width: 24px;
 }
 
 .table .t-pagination {
@@ -426,7 +436,6 @@ button {
     border-top: 1px solid #E8EFF6;
     margin: 25px 0;
     padding: 28px 30px;
-    padding-top: 36px;
 }
 
 .project-details .main-content .title {

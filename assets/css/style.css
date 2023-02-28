@@ -426,6 +426,7 @@ button {
     border-top: 1px solid #E8EFF6;
     margin: 25px 0;
     padding: 28px 30px;
+    padding-top: 40px;
 }
 
 .project-details .main-content .title {
@@ -438,7 +439,7 @@ button {
 .project-details .main-content .description {
     font-size: 1.6rem;
     color: #56606D;
-    margin-bottom: 28px;
+    margin-bottom: 34px;
     line-height: 24px;
     font-weight: 400;
 }

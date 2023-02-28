@@ -147,6 +147,7 @@
     }
     .project-details .main-content {
         padding: 20px 15px;
+        padding-top: 40px;
     }
     .project-details .main-content .job {
         justify-content: space-between;
